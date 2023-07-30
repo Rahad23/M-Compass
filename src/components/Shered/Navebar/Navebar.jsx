@@ -28,31 +28,31 @@ const Navebar = () => {
   </div>
   <div className="navbar-center hidden lg:flex">
     <ul className="flex items-center justify-center gap-x-7 px-1 text-base text-white hover:text-white">
-      <li className="border-animate p-0">
+      <li className="border-animate-nav p-0">
         <a>Home</a>
         </li>
-      <li className="border-animate p-0">
+      <li className="border-animate-nav p-0">
             <a>Modules</a>
       </li>
-      <li className="border-animate p-0">
+      <li className="border-animate-nav p-0">
         <a>Features</a>
     </li>
-      <li className="border-animate p-0">
+      <li className="border-animate-nav p-0">
         <a>pricing</a>
     </li>
-      <li className="border-animate p-0">
+      <li className="border-animate-nav p-0">
         <a>services</a>
     </li>
-      <li className="border-animate p-0">
+      <li className="border-animate-nav p-0">
         <a>Demo</a>
     </li>
-      <li className="border-animate p-0">
+      <li className="border-animate-nav p-0">
         <a>Blog</a>
     </li>
-      <li className="border-animate p-0">
+      <li className="border-animate-nav p-0">
         <a>About</a>
     </li>
-      <li className="border-animate p-0">
+      <li className="border-animate-nav p-0">
         <a>Contact</a>
     </li>
     </ul>

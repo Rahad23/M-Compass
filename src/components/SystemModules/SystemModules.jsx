@@ -8,8 +8,8 @@ import icon7 from "../../assets/icon/TMS.png";
 import icon8 from "../../assets/icon/Admin.png";
 import icon9 from "../../assets/icon/Transport.png";
 import icon10 from "../../assets/icon/Library.png";
-
-
+import { BsArrowRight } from "react-icons/bs";
+import "./SystemModulStyle/SystemModulStyle.css";
 const SystemModules = () => {
 
     const managementSystem=[
@@ -94,8 +94,10 @@ const SystemModules = () => {
                         </div>
                         )
                 }
-          
             </div>
+            <div className="flex justify-center items-center my-6 mt-24">
+                <button className="btn capitalize rounded-3xl h-16 bg-[#5C3465] text-white text-lg hover:bg-[#ffffff] hover:border-[2px] hover:text-[#5C3465] hover:border-[#5C3465] flex items-center justify-center hover-effect">View all modules <BsArrowRight className="text-xl mt-1 w-[45px] iconRight" /></button>
+          </div>
         </div>
     );
 };

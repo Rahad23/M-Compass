@@ -1,0 +1,5 @@
+.hover-effect:hover .iconRight{
+    transition-duration: .2s;
+    margin-left: 4px;
+    color: #5C3465;
+}
