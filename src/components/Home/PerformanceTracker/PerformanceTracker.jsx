@@ -146,7 +146,7 @@ const PerformanceTracker = () => {
             <h1 className="text-4xl leading-snug text-[#051441] font-semibold text-center">Measure and increase Performance <br /> By Edusuite</h1>
          <div className='flex justify-center gap-x-20 mt-10'>
             <div className='w-40'>
-                    <CircularProgressbar
+           <CircularProgressbar
             value={percentage}
             text={`${Math.round(percentage)}%`}
             styles={customStyles1}

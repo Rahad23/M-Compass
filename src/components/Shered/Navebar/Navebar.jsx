@@ -29,7 +29,7 @@ const Navebar = () => {
   <div className="navbar-center hidden lg:flex">
     <ul className="flex items-center justify-center gap-x-7 px-1 text-base text-white hover:text-white">
       <li className="border-animate-nav p-0">
-        <a>Home</a>
+        <Link to={"/"}>Home</Link>
         </li>
       <li className="border-animate-nav p-0">
             <Link to={"/modules"}>Modules</Link>
