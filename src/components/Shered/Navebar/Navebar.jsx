@@ -32,7 +32,7 @@ const Navebar = () => {
         <a>Home</a>
         </li>
       <li className="border-animate-nav p-0">
-            <a>Modules</a>
+            <Link to={"/modules"}>Modules</Link>
       </li>
       <li className="border-animate-nav p-0">
         <a>Features</a>

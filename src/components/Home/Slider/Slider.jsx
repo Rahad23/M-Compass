@@ -5,7 +5,7 @@ import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import { Navigation, Pagination, Mousewheel, Keyboard, Autoplay } from 'swiper/modules';
 import "./SliderStyle/SliderStyle.css";
-import slideImg from "../../assets/sliderImg/slide1.jpg";
+import slideImg from "../../../assets/sliderImg/slide1.jpg";
 const Slider = () => {
     return (
         <div>

@@ -3,7 +3,7 @@ import { BiBarChartAlt, BiCalendar } from "react-icons/bi";
 import { BsBook, BsCreditCard2Back, BsCursor } from "react-icons/bs";
 import { SlSpeedometer } from "react-icons/sl";
 import { FaGraduationCap } from "react-icons/fa";
-import phoneImg from "../../assets/School-Management-System-Mobile-App.png";
+import phoneImg from "../../../assets/School-Management-System-Mobile-App.png";
 const WhyChooseEdusuite = () => {
     return (
         <div className="my-10">

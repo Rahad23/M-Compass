@@ -1,0 +1,7 @@
+.setImg{
+    background-image: linear-gradient(rgba(255, 255, 255, .9), rgba(255, 255, 255, .9)), url("../../../../assets/hatback.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}

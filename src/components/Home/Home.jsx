@@ -1,9 +1,13 @@
-import HomeText from "../HomeText/HomeText";
-import Satisfaction from "../Satisfaction/Satisfaction";
-import Slider from "../Slider/Slider";
-import SystemModules from "../SystemModules/SystemModules";
-import WhyChooseEdusuite from "../WhyChooseEdusuite/WhyChooseEdusuite";
+
+import FeaturesBenefits from "./FeaturesBenefits/FeaturesBenefits";
+import HomeText from "./HomeText/HomeText";
+import ImportanceOfSchoolSoftware from "./ImportanceOfSchoolSoftware/ImportanceOfSchoolSoftware";
 import PerformanceTracker from "./PerformanceTracker/PerformanceTracker";
+import Reviews from "./Reviews/Reviews";
+import Satisfaction from "./Satisfaction/Satisfaction";
+import Slider from "./Slider/Slider";
+import SystemModules from "./SystemModules/SystemModules";
+import WhyChooseEdusuite from "./WhyChooseEdusuite/WhyChooseEdusuite";
 
 const Home = () => {
     return (
@@ -14,6 +18,9 @@ const Home = () => {
             <Satisfaction />
             <SystemModules />
             <PerformanceTracker />
+            <FeaturesBenefits />
+            <ImportanceOfSchoolSoftware />
+            <Reviews />
         </div>
     );
 };

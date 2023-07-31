@@ -1,13 +1,13 @@
-import icon1 from "../../assets/icon/ams.png";
-import icon2 from "../../assets/icon/attendance.png";
-import icon3 from "../../assets/icon/Examination.png";
-import icon4 from "../../assets/icon/LMS.png";
-import icon5 from "../../assets/icon/Finance.png";
-import icon6 from "../../assets/icon/SMS.png";
-import icon7 from "../../assets/icon/TMS.png";
-import icon8 from "../../assets/icon/Admin.png";
-import icon9 from "../../assets/icon/Transport.png";
-import icon10 from "../../assets/icon/Library.png";
+import icon1 from "../../../assets/icon/ams.png";
+import icon2 from "../../../assets/icon/attendance.png";
+import icon3 from "../../../assets/icon/Examination.png";
+import icon4 from "../../../assets/icon/LMS.png";
+import icon5 from "../../../assets/icon/Finance.png";
+import icon6 from "../../../assets/icon/SMS.png";
+import icon7 from "../../../assets/icon/TMS.png";
+import icon8 from "../../../assets/icon/Admin.png";
+import icon9 from "../../../assets/icon/Transport.png";
+import icon10 from "../../../assets/icon/Library.png";
 import { BsArrowRight } from "react-icons/bs";
 import "./SystemModulStyle/SystemModulStyle.css";
 const SystemModules = () => {
@@ -76,7 +76,7 @@ const SystemModules = () => {
     ]
 
     return (
-        <div className="mt-[120px] px-16">
+        <div className="mt-[120px] px-16 py-16 bg-[#F7F8FC]">
             <h1 className="text-3xl text-[#051441] font-semibold text-center">Explore School Management System Modules</h1>
             <div className="grid grid-cols-5 gap-y-10 mt-10">
                 {
