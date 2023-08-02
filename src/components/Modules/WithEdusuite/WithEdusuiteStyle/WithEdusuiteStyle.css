@@ -1,0 +1,18 @@
+.image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Adjust the height as needed */
+  }
+  
+  /* Styling for the image */
+  .imgEffect {
+    width: 300px; /* Adjust the size of the image as needed */
+    height: 200px;
+    transition: transform 0.3s; /* Add a smooth transition effect */
+  }
+  
+  /* Apply the hover effect */
+  .imgEffect:hover {
+    transform: translate(10px, 10px); /* Adjust the amount of movement */
+  }

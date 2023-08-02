@@ -131,7 +131,7 @@ const SystemModules = () => {
                 }
             </div>
             <div className="flex justify-center items-center my-6 mt-24">
-                <button className="btn capitalize rounded-3xl h-16 bg-[#FA4D56] text-white text-lg hover:bg-[#ffffff] hover:border-[2px] hover:text-[#FA4D56] hover:border-[#FA4D56] flex items-center justify-center hover-effect">Request Demo <BsArrowRight className="text-xl mt-1 text-[#ffffff] hover:text-[#FA4D56] w-[45px] iconRight" /></button>
+                <button className="btn capitalize rounded-3xl h-16 bg-[#FA4D56] text-white text-lg hover:bg-[#ffffff] hover:border-[2px] hover:text-[#FA4D56] hover:border-[#FA4D56] flex items-center justify-center hover-effect">Request Demo <BsArrowRight className="text-xl mt-1 text-[#ffffff] hover:text-[#FA4D56] w-[30px] iconRight" /></button>
           </div>
 
         </div>

@@ -1,3 +1,4 @@
+import Faq from "./FAQ/Faq";
 import GetConnected from "./GetConnected/GetConnected";
 import ModulesBanner from "./ModulesBanner/ModulesBanner";
 import SystemModules from "./SystemModules/SystemModules";
@@ -10,6 +11,7 @@ const Modules = () => {
             <GetConnected />
             <SystemModules />
             <WithEdusuite />
+            <Faq />
         </div>
     );
 };

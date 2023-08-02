@@ -1,0 +1,6 @@
+.progress-rounded-none {
+    border-radius: 0;
+  }
+  .progress-success {
+    border-radius: 0; /* Set the border-radius to 0 to remove the rounded corners */
+  }

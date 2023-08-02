@@ -38,7 +38,7 @@ const Navebar = () => {
         <a>Features</a>
     </li>
       <li className="border-animate-nav p-0">
-        <a>pricing</a>
+        <Link to={'/pricing'}>pricing</Link>
     </li>
       <li className="border-animate-nav p-0">
         <a>services</a>
