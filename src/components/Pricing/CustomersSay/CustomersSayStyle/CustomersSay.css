@@ -1,0 +1,6 @@
+.set-bg-image-customer-say{
+    background-image: linear-gradient(rgba(255, 255, 255, .9), rgba(255, 255, 255, .9)), url("../../../../assets/rawpixel-626044-unsplash.jpg");
+    background-size: auto;
+    background-position: right;
+    background-repeat: no-repeat;
+  }

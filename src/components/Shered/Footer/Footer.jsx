@@ -7,7 +7,7 @@ import linkedinIcon from "../../../assets/icon/linkedin.png";
 import twitterIcon from "../../../assets/icon/twitter.png";
 const Footer = () => {
     return (
-        <footer className="px-10 py-7 dark:bg-[#07112D] dark:text-gray-100 mt-32">
+        <footer className="px-10 py-7 dark:bg-[#07112D] dark:text-gray-100">
             <figure className="">
     <img src={footerLogo} alt="Shoes" className="rounded-xl" />
   </figure>

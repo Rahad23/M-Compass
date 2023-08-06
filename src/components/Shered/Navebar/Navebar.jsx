@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import logo from "../../../assets/whiteLogo.png";
+import logo from "../../../assets/mCompass.jpeg";
 import "./NavebarStyle/Navebar.css";
 import { FiSearch } from 'react-icons/fi';
 const Navebar = () => {
@@ -23,7 +23,7 @@ const Navebar = () => {
       </ul>
     </div>
     <Link className="">
-        <img src={logo} alt="" />
+        <img className="w-[150px]" src={logo} alt="" />
     </Link>
   </div>
   <div className="navbar-center hidden lg:flex">
@@ -34,22 +34,22 @@ const Navebar = () => {
       <li className="border-animate-nav p-0">
             <Link to={"/modules"}>Modules</Link>
       </li>
-      <li className="border-animate-nav p-0">
+      <li className="border-animate-nav p-0 hidden">
         <a>Features</a>
     </li>
       <li className="border-animate-nav p-0">
         <Link to={'/pricing'}>pricing</Link>
     </li>
-      <li className="border-animate-nav p-0">
+      <li className="border-animate-nav p-0 hidden">
         <a>services</a>
     </li>
-      <li className="border-animate-nav p-0">
+      <li className="border-animate-nav p-0 hidden">
         <a>Demo</a>
     </li>
-      <li className="border-animate-nav p-0">
+      <li className="border-animate-nav p-0 hidden">
         <a>Blog</a>
     </li>
-      <li className="border-animate-nav p-0">
+      <li className="border-animate-nav p-0 hidden">
         <a>About</a>
     </li>
       <li className="border-animate-nav p-0">

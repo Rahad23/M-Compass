@@ -1,6 +1,6 @@
-.progress-rounded-none {
-    border-radius: 0;
-  }
-  .progress-success {
-    border-radius: 0; /* Set the border-radius to 0 to remove the rounded corners */
-  }
+.set-bg-image{
+  background-image: linear-gradient(rgba(255, 255, 255, .9), rgba(255, 255, 255, .9)), url("../../../../assets/callimage.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}

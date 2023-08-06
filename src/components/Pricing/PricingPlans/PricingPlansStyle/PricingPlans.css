@@ -1,0 +1,6 @@
+.set-bg-image-pricing{
+    background-image: linear-gradient(rgba(255, 255, 255, .6), rgba(255, 255, 255, .6)), url("../../../../assets/tab_pattern.png");
+    background-size: auto;
+    background-position: center;
+    background-repeat: repeat;
+  }
