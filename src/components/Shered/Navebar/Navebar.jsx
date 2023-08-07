@@ -3,8 +3,9 @@ import logo from "../../../assets/mCompass.jpeg";
 import "./NavebarStyle/Navebar.css";
 import { FiSearch } from 'react-icons/fi';
 const Navebar = () => {
+
     return (
-        <div className="navbar bg-[#812F97] py-5 px-8">
+        <div className="navbar bg-[#71407C] py-3 px-8 shadow-md sticky top-0 z-50 border-b-[1px] border-[#173968]">
   <div className="navbar-start">
     <div className="dropdown">
       <label tabIndex={0} className="btn btn-ghost lg:hidden">
@@ -22,38 +23,48 @@ const Navebar = () => {
         <li><a>Item 3</a></li>
       </ul>
     </div>
-    <Link className="">
-        <img className="w-[150px]" src={logo} alt="" />
-    </Link>
+    {/* <Link className="">
+        <img className="w-[67px]" src={logo} alt="" />
+    </Link> */}
   </div>
   <div className="navbar-center hidden lg:flex">
-    <ul className="flex items-center justify-center gap-x-7 px-1 text-base text-white hover:text-white">
-      <li className="border-animate-nav p-0">
+    <ul className="flex items-center justify-center gap-x-7 px-1  text-[#FFFFFF]  text-lg font-semibold">
+      <li className="border-animate-nav p-0 hover:text-[#FC901B]">
         <Link to={"/"}>Home</Link>
         </li>
-      <li className="border-animate-nav p-0">
+      <li className="border-animate-nav p-0 hover:text-[#FC901B]">
             <Link to={"/modules"}>Modules</Link>
       </li>
-      <li className="border-animate-nav p-0 hidden">
+      <li>
+  {/* <Link> */}
+      <div className="avatar cursor-pointer">
+  <div className="w-[138px] rounded-full">
+        <img className="" src={logo} alt="" />
+  </div>
+</div>
+    {/* </Link> */}
+     
+      </li>
+      <li className="border-animate-nav p-0 hover:text-[#FC901B] hidden">
         <a>Features</a>
     </li>
-      <li className="border-animate-nav p-0">
+      <li className="border-animate-nav p-0 hover:text-[#FC901B]">
         <Link to={'/pricing'}>pricing</Link>
     </li>
-      <li className="border-animate-nav p-0 hidden">
+      <li className="border-animate-nav p-0 hover:text-[#FC901B] hidden">
         <a>services</a>
     </li>
-      <li className="border-animate-nav p-0 hidden">
+      <li className="border-animate-nav p-0 hover:text-[#FC901B] hidden">
         <a>Demo</a>
     </li>
-      <li className="border-animate-nav p-0 hidden">
+      <li className="border-animate-nav p-0 hover:text-[#FC901B] hidden">
         <a>Blog</a>
     </li>
-      <li className="border-animate-nav p-0 hidden">
+      <li className="border-animate-nav p-0 hover:text-[#FC901B] hidden">
         <a>About</a>
     </li>
-      <li className="border-animate-nav p-0">
-        <a>Contact</a>
+      <li className="border-animate-nav p-0 hover:text-[#FC901B]">
+        <Link to={'/contact'}>Contact</Link>
     </li>
     </ul>
   </div>

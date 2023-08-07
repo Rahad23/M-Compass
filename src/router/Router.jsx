@@ -3,6 +3,7 @@ import Main from "../components/Main/Main";
 import Home from "../components/Home/Home";
 import Modules from "../components/Modules/Modules";
 import Pricing from "../components/Pricing/Pricing";
+import Contact from "../components/Contact/Contact";
 
 const router = createBrowserRouter([
     {
@@ -20,6 +21,10 @@ const router = createBrowserRouter([
         {
           path: "/pricing",
           element: <Pricing />
+        },
+        {
+          path: "/contact",
+          element: <Contact />
         }
       ]
     },

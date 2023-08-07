@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import footerLogo from "../../../assets/Edusuite-Footer.png";
+import footerLogo from "../../../assets/footer-removebg-preview.png";
 import faceBookIcon from "../../../assets/icon/facebook.png";
 import instagramIcon from "../../../assets/icon/instagram.png";
 import pinterestIcon from "../../../assets/icon/pinterest.png";
@@ -9,7 +9,7 @@ const Footer = () => {
     return (
         <footer className="px-10 py-7 dark:bg-[#07112D] dark:text-gray-100">
             <figure className="">
-    <img src={footerLogo} alt="Shoes" className="rounded-xl" />
+    <img className="w-[100px] rounded-xl" src={footerLogo} alt="Shoes" />
   </figure>
         <div className="container grid grid-cols-2 mx-auto gap-x-3 gap-y-8 sm:grid-cols-3 md:grid-cols-4 mt-5">
             <div className="flex flex-col space-y-4">

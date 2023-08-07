@@ -1,0 +1,6 @@
+.set-get-in-touch-bg{
+    background-image: linear-gradient(rgba(255, 255, 255, .9), rgba(255, 255, 255, .9)), url("../../../../assets/keyboard.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
