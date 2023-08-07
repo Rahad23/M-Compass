@@ -1,5 +1,4 @@
 import { GoogleMap, LoadScript, Marker } from '@react-google-maps/api';
-import { useEffect } from 'react';
 
 const OfficeAddress = () => {
     
@@ -12,13 +11,8 @@ const OfficeAddress = () => {
     lat: -3.745,
     lng: -38.523
   };
-  let path = window.location.pathname.split('/')[1]
-  
-  
-  console.log()
-// useEffect(()=>{
-//    return location.reload();
-// },[])
+//   let path = window.location.pathname.split('/')[1]
+
   return (
     <div className='grid px-16 mt-20' style={{gridTemplateColumns:"1.5fr 4fr"}}>
       <div className='px-2 flex flex-col gap-y-7'>
