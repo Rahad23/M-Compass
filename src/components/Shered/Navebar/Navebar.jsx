@@ -63,13 +63,13 @@ const Navebar = () => {
         <a>About</a>
     </li>
       <li className="border-animate-nav p-0 hover:text-[#FC901B]">
-        <Link to={'/contact'}>Contact</Link>
-    </li>
-      <li className="border-animate-nav p-0 hover:text-[#FC901B]">
         <Link to={'/contact'}>Be a partner</Link>
     </li>
       <li className="border-animate-nav p-0 hover:text-[#FC901B]">
         <Link to={'/contact'}>Demo</Link>
+    </li>
+      <li className="border-animate-nav p-0 hover:text-[#FC901B]">
+        <Link to={'/contact'}>Contact</Link>
     </li>
     </ul>
   </div>

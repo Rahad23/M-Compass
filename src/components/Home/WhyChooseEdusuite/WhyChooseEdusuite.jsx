@@ -3,12 +3,12 @@ import { BiBarChartAlt, BiCalendar } from "react-icons/bi";
 import { BsBook, BsCreditCard2Back, BsCursor } from "react-icons/bs";
 import { SlSpeedometer } from "react-icons/sl";
 import { FaGraduationCap } from "react-icons/fa";
-import phoneImg from "../../../assets/School-Management-System-Mobile-App.png";
+// import phoneImg from "../../../assets/School-Management-System-Mobile-App.png";
 import logo from "../../../assets/mCompass.jpeg";
 const WhyChooseEdusuite = () => {
     return (
         <div className="my-10 px-16">
-            <h1 className="text-3xl text-[#051441] text-center font-semibold">Why Choose Edusuite?</h1>
+            <h1 className="text-3xl text-[#051441] text-center font-semibold">Why Choose mCampus?</h1>
             <p className="border-double border-t-0 border-x-0 border-4 border-[#961276] text-center w-[10%] mx-auto mt-1"></p>
             <div className="grid grid-cols-3 mt-10 gap-x-10">
             <div>

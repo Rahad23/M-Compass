@@ -13,7 +13,7 @@ const Satisfaction = () => {
         {
             id: 2,
             icon: <FiCheckSquare className="text-4xl mx-auto text-white" />,
-            title: "MODULES",
+            title: "Features",
             description: "Edusuite developed its entire software and tools in a way that it can be customized according to your needs.",
             styleGradient: " -webkit-linear-gradient(0deg,#B721FF 0%,#914AEE 100%)"
         },
