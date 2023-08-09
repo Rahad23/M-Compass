@@ -35,6 +35,9 @@ const Navebar = () => {
       <li className="border-animate-nav p-0 hover:text-[#FC901B]">
             <Link to={"/modules"}>Modules</Link>
       </li>
+      <li className="border-animate-nav p-0 hover:text-[#FC901B]">
+        <Link to={'/pricing'}>pricing</Link>
+    </li>
       <li>
   {/* <Link> */}
       <div className="avatar cursor-pointer">
@@ -43,13 +46,9 @@ const Navebar = () => {
   </div>
 </div>
     {/* </Link> */}
-     
       </li>
       <li className="border-animate-nav p-0 hover:text-[#FC901B] hidden">
         <a>Features</a>
-    </li>
-      <li className="border-animate-nav p-0 hover:text-[#FC901B]">
-        <Link to={'/pricing'}>pricing</Link>
     </li>
       <li className="border-animate-nav p-0 hover:text-[#FC901B] hidden">
         <a>services</a>
@@ -65,6 +64,12 @@ const Navebar = () => {
     </li>
       <li className="border-animate-nav p-0 hover:text-[#FC901B]">
         <Link to={'/contact'}>Contact</Link>
+    </li>
+      <li className="border-animate-nav p-0 hover:text-[#FC901B]">
+        <Link to={'/contact'}>Be a partner</Link>
+    </li>
+      <li className="border-animate-nav p-0 hover:text-[#FC901B]">
+        <Link to={'/contact'}>Demo</Link>
     </li>
     </ul>
   </div>

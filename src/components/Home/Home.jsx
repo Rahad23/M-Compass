@@ -1,6 +1,7 @@
 
 import FeaturesBenefits from "./FeaturesBenefits/FeaturesBenefits";
-import HomeText from "./HomeText/HomeText";
+import HotFeature from "./HotFeature/HotFeature";
+// import HomeText from "./HomeText/HomeText";
 import ImportanceOfSchoolSoftware from "./ImportanceOfSchoolSoftware/ImportanceOfSchoolSoftware";
 import PerformanceTracker from "./PerformanceTracker/PerformanceTracker";
 import Reviews from "./Reviews/Reviews";
@@ -13,10 +14,11 @@ const Home = () => {
     return (
         <div>
             <Slider />
-            <HomeText />
+            {/* <HomeText /> */}
             <WhyChooseEdusuite />
             <Satisfaction />
             <SystemModules />
+            <HotFeature />
             <PerformanceTracker />
             <FeaturesBenefits />
             <ImportanceOfSchoolSoftware />

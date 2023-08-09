@@ -1,0 +1,6 @@
+.border-gradient {
+    border: 1px solid transparent; /* Set the initial border size and make it transparent */
+    border: linear-gradient(to right, #ff00ff, #00ffff); /* Define the gradient colors */
+    border-radius: 20px; /* Adding rounded corners */
+    border-image-slice: 1; /* Ensure the entire border is covered with the gradient */
+  }  

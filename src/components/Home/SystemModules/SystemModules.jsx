@@ -15,61 +15,61 @@ const SystemModules = () => {
     const managementSystem=[
         {
             id: 1,
-            title: "Admission",
+            title: "Admin Portal",
             description: "Management System",
             icon: icon1
         },
         {
             id: 2,
-            title: "Admission",
+            title: "Academics",
             description: "Management System",
             icon: icon2
         },
         {
             id: 3,
-            title: "Admission",
+            title: "Online Admission",
             description: "Management System",
             icon: icon3
         },
         {
             id: 4,
-            title: "Attendance",
+            title: "Examination",
             description: "Management System",
             icon: icon4
         },
         {
             id: 5,
-            title: "Examination",
+            title: "Transportation",
             description: "Management System",
             icon: icon5
         },
         {
             id: 6,
-            title: "Learning (LMS)",
+            title: "Library",
             description: "Management System",
             icon: icon6
         },
         {
             id: 7,
-            title: "Finance",
+            title: "Dormitory",
             description: "Management System",
             icon: icon7
         },
         {
             id: 8,
-            title: "Student",
+            title: "Human Resource",
             description: "Management System",
             icon: icon8
         },
         {
             id: 9,
-            title: "Timetable",
+            title: "Accounts",
             description: "Management System",
             icon: icon9
         },
         {
             id: 10,
-            title: "Administration",
+            title: "Reports",
             description: "Management System",
             icon: icon10
         }
@@ -87,8 +87,8 @@ const SystemModules = () => {
                         <img src={data.icon} alt="Shoes" className="rounded-xl" />
                     </figure>
                           <div>
-                          <h4 className="text-2xl text-[#051441] p-0 text-center">{data.title}</h4>
-                            <p className="text-center text-[#051441] font-semibold">{data.description}</p>
+                          <h4 className="text-xl text-[#051441] p-0 text-center">{data.title}</h4>
+                            <p className="text-center text-[#051441]">{data.description}</p>
                           </div>
                         </div>
                         </div>

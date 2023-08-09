@@ -4,12 +4,13 @@ import { BsBook, BsCreditCard2Back, BsCursor } from "react-icons/bs";
 import { SlSpeedometer } from "react-icons/sl";
 import { FaGraduationCap } from "react-icons/fa";
 import phoneImg from "../../../assets/School-Management-System-Mobile-App.png";
+import logo from "../../../assets/mCompass.jpeg";
 const WhyChooseEdusuite = () => {
     return (
-        <div className="my-10">
+        <div className="my-10 px-16">
             <h1 className="text-3xl text-[#051441] text-center font-semibold">Why Choose Edusuite?</h1>
             <p className="border-double border-t-0 border-x-0 border-4 border-[#961276] text-center w-[10%] mx-auto mt-1"></p>
-            <div className="flex justify-center mt-10">
+            <div className="grid grid-cols-3 mt-10 gap-x-10">
             <div>
                 <ul className="grid gap-y-10 mt-10">
                     <li className="flex items-center gap-x-4">
@@ -39,7 +40,9 @@ const WhyChooseEdusuite = () => {
                 </ul>
 
             </div>
-             <img className="w-[25%]" src={phoneImg} alt="" />
+            <div className="flex items-center">
+            <img className="rounded-3xl shadow-md" src={logo} alt="" />
+            </div>
             <div>
                 <ul className="grid gap-y-10 mt-10">
                     <li className="flex items-center gap-x-4">
