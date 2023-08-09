@@ -28,7 +28,7 @@ const HotFeature = () => {
         },
         {
             id: 4,
-            title: "Qushum Bank",
+            title: "Question Bank",
             description: "Management System",
             icon: <BsQuestionSquareFill className='text-5xl text-[#051441]' />
         },
